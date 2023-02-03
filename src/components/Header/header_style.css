@@ -1,0 +1,61 @@
+.header_das_paginas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  position: fixed;
+  height: 6em;
+  justify-content: space-between;
+  padding: 0 2em;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header_logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  cursor: pointer;
+}
+
+.header_logo {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  height: 88px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header_logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .header_button {
+    background-color: #f9f9f9;
+  }
+}
+
+.header_button:focus,
+.header_button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.header_button:hover {
+  border-color: #646cff;
+}
+
+.header_button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 3px;
+}

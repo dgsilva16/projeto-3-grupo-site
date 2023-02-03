@@ -1,0 +1,29 @@
+.footer_das_paginas {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 88px;
+}
+
+.footer_logo {
+  opacity: 1;
+}
+
+.footer_logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  cursor: pointer;
+}
+
+.footer_logo {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  height: 88px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .footer_logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

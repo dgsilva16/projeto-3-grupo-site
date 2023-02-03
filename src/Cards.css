@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+
+/* Card */
+
+.box {
+
+  display: flex;
+  
+  width: 100%;
+  
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(187,222,251);
+  height: 100%;
+}
+
+.cinema {
+  display: flex;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 15px;
+  margin: 10px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.img-cards-cinema {
+  border-radius: 15px;
+  width: 400px;
+  height: 250px;
+}
+
+.card-header {
+  background-image: linear-gradient(45deg, #007FBF, #005580, #00AAFF, #002A40, #0198E6);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+button {
+  background-color: #FFCC15;
+  color: rgb(255,255,255);
+  padding: 5px;
+  width: 150px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+div.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h3 {
+  color: #FFCC15;
+}
+
+.hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, rgb(204,204,204), transparent);
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.movie {
+    margin: auto;
+    padding: 50px;
+    background-image: linear-gradient(45deg, #007FBF, #005580, #00AAFF, #002A40, #0198E6);
+    box-shadow: 0 0 5px 0 #000000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 1515px;
+    height: 100%;
+
+}
+
+.img {
+    width: auto;
+    height: 300px;
+    border: 5px double #000000;
+}
+
+.name {
+    margin: 10px 0;
+}
+
+hr {
+    margin: 10px 0;
+    height: 2px;
+    border-width: 0;
+    color: #000000;
+    background-color: #FFCC15;
+}
+
+.edit {
+    margin: 30px 580px 0 0;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #FFCC15;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.back {
+    margin: 10px 10px 0 0;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #FFCC15;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}

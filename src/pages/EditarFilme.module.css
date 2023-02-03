@@ -1,0 +1,159 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    .h2editPost {
+        text-align: center;
+    }
+
+    .editPost {
+        margin: auto;
+        padding: 50px;
+        width: 100%;
+        max-width: 800px;
+        margin-top: 20px;
+        background-color: #84A6D9;
+        box-shadow: 0 0 5px 0 #000000;
+        border-radius: 10px;
+    }
+
+    .editPost div {
+        margin: 10px 0;
+    }
+
+    .editPost div label {
+        display: flex;
+    }
+
+    .editPost div input {
+        box-sizing: border-box;
+        border: 2px solid #CCC;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        padding: 12px 20px 12px 10px;
+    }
+
+    .editPost div textarea {
+        box-sizing: border-box;
+        border: 2px solid #CCC;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        padding: 12px 20px 12px 10px;
+    }
+
+    .cols {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    .col1 {
+        width: 48%;
+    }
+
+    .col2 {
+        width: 48%;
+    }
+
+    .editPost .cols input,
+    .cols select {
+        padding: 8px 10px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .editPost .cols textarea {
+        padding: 8px 10px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .buttonSalvePost {
+        display: block;
+        margin: 10px 10px 0 0;
+        padding: 10px;
+        color: #FFFFFF;
+        background-color: #FFCC15;
+        border: 0;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .buttonCancelPost {
+        display: block;
+        margin: 10px 10px 0 0;
+        padding: 10px;
+        color: #FFFFFF;
+        background-color: #FFCC15;
+        border: 0;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+
+@media screen and (max-width:767px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .h2editPost {
+        text-align: center;
+    }
+
+    .editPost {
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        padding: 30px;
+        background-color: #84A6D9;
+        box-shadow: 0 0 5px 0 #000000;
+        border-radius: 10px;
+    }
+
+    .editPost div {
+        margin: 20px 0;
+    }
+
+    .editPost div label {
+        display: flex;
+    }
+
+    .editPost div input {
+        box-sizing: border-box;
+        border: 2px solid #CCC;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        padding: 12px 20px 12px 10px;
+    }
+
+    .editPost .cols input,
+    .cols select {
+        padding: 8px 10px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .editPost .cols textarea {
+        padding: 8px 10px;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .buttonSalvePost {
+        display: block;
+        margin: 10px 10px 0 0;
+        padding: 10px;
+        color: #FFFFFF;
+        background-color: #000000;
+        border: 0;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+}
